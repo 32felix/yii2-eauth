@@ -1,0 +1,21 @@
+{
+	"name": "32felix/yii2-eauth",
+	"description": "Yii2 EAuth Extension. EAuth allows to authenticate users with accounts on other websites (Google, Facebook, Twitter, etc).",
+	"keywords": ["yii2", "extension", "eauth", "openid", "oauth", "authentication"],
+	"type": "yii2-extension",
+	"autoload": {
+		"psr-4": {
+			"nodge\\eauth\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"lib-curl": "*",
+		"yiisoft/yii2": "*",
+		"lusitanian/oauth": "*",
+		"nodge/lightopenid": "~1.1.0"
+	},
+	"extra": {
+		"bootstrap": "nodge\\eauth\\Bootstrap"
+	}
+}
